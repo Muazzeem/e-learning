@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+
+body {
+    font-size: 14px;
+    font-weight: 300;
+    background-color: #f6f6f6;
+    font-family: "Josefin Sans", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container-fluid {
+    width: 85% !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul {
+    padding-left: 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media (max-width: 426px) {
+    .container-fluid {
+        width: 100% !important;
+    }
+
+    .card-body {
+        padding: 0px;
+    }
+
+    ul {
+        padding-left: 0px;
+    }
+
+    .service-card {
+        height: 500px !important;
+    }
+
+    .service-card h5 {
+        font-size: 18px !important;
+        font-weight: 600 !important;
+    }
 }
 
-.App-link {
-  color: #61dafb;
+.btn-primary {
+    background-color: #3c77b1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #3c77b1; /*set the color you want here*/
 }

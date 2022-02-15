@@ -1,0 +1,33 @@
+svg {
+    height: 23px;
+}
+
+.active {
+    color: green;
+    cursor: pointer;
+}
+
+.accordion-body span {
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}
+
+.accordion-body {
+    padding-top: 1rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+.accordion-button {
+    font-size: 18px;
+    font-weight: 600;
+}

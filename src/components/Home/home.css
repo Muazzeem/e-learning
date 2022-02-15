@@ -1,0 +1,61 @@
+.home {
+    margin-top: 8.5rem;
+}
+
+.about h1 {
+    font-weight: 600;
+}
+
+.about p {
+    font-size: 17px;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.player-wrapper {
+    position: relative;
+    padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.details i {
+    color: green;
+    font-size: 25px;
+}
+.sort-details i {
+    color: green;
+    font-size: 25px;
+}
+.video-text{
+    font-size: 16px;
+}
+.bulet-text{
+    margin-left: 2rem;
+}
+@media (max-width: 991px) {
+    .video-player{
+        display: none;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .sm-player{
+        display: none;
+    }
+}
+
+@media (max-width: 633px) {
+    .details{
+        display: none;
+    }
+}
+@media (min-width: 634px) {
+    .sort-details{
+        display: none;
+    }
+}

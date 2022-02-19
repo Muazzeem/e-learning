@@ -33,9 +33,11 @@ function Contact2() {
                                     </div>
                                     <div className="mt-2">
                                         <a href="https://www.facebook.com/mr.saiful.azad" target="_blank"
+                                           rel="noreferrer" title="ফেসবুক প্রোফাইল"
                                            className="btn btn-primary btn-floating facebook m-1"><i
                                             className="fab fa-facebook-f"></i></a>
                                         <a href="https://www.linkedin.com/in/saifulazad/" target="_blank"
+                                           rel="noreferrer" title="লিঙ্কডইন প্রোফাইল"
                                            className="btn btn-primary btn-floating linkedin m-1"><i
                                             className="fab fa-linkedin-in"></i></a>
                                     </div>
@@ -45,13 +47,13 @@ function Contact2() {
                                         <div className="fb-share-button"
                                              data-href="https://learning.fractalslab.com"
                                              data-layout="button" data-size="large">
-                                            <a target="_blank"
+                                            <a target="_blank" rel="noreferrer"
                                                href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"
                                                className="fb-xfbml-parse-ignore">Share</a>
                                         </div>
                                         <a className="btn btn-sm linkedin-btn text-white linkedin"
                                            href="https://linkedin.com/shareArticle?url=https://learning.fractalslab.com/&title=E-Learning"
-                                           target="_blank"><i
+                                           target="_blank" rel="noreferrer"><i
                                             className="fa-brands fa-linkedin-in"></i> Share</a>
                                     </div>
                                 </div>

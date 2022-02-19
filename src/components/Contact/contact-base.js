@@ -80,7 +80,7 @@ function ContactBase() {
             window.grecaptcha.execute(SITE_KEY, {action: 'submit'}).then(token => {
                 console.log(token);
                 setDisable(false)
-                if (name.length > 1, email.length > 1, phone.length > 1) {
+                if (name.length > 1 && email.length > 1 && phone.length > 1) {
                     const form = {
                         name, email, phone, token
                     }

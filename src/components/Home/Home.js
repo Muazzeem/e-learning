@@ -1,5 +1,5 @@
-import ReactPlayer from 'react-player'
 import './home.css';
+import '@justinribeiro/lite-youtube';
 import Teacher from "./teacher";
 import SortContact from "../Contact/contact";
 import Course from "../Course/course";
@@ -32,12 +32,8 @@ function HomePage() {
                     </div>
                     <div className="sm-player">
                         <div className='player-wrapper bg-white mt-sm-5'>
-                            <ReactPlayer
-                                className='react-player'
-                                url='https://youtu.be/FmCbRLgvkWQ'
-                                width='100%'
-                                height='100%'
-                            />
+                            <lite-youtube videoid="FmCbRLgvkWQ"
+                                          playlabel="Play: Intro AWS Serverless REST API development"></lite-youtube>
                         </div>
                         <PopUpContact/>
                         <div className="bg-white sort-details p-4">
@@ -106,12 +102,8 @@ function HomePage() {
                 </div>
                 <div className="col-lg-6 video-player">
                     <div className='player-wrapper bg-white mt-sm-5'>
-                        <ReactPlayer
-                            className='react-player'
-                            url='https://youtu.be/FmCbRLgvkWQ'
-                            width='100%'
-                            height='100%'
-                        />
+                        <lite-youtube videoid="FmCbRLgvkWQ"
+                                      playlabel="Play: Intro AWS Serverless REST API development"></lite-youtube>
                     </div>
                     <div className="bg-white">
                         <SortContact/>

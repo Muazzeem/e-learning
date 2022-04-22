@@ -1,15 +1,15 @@
-.service-card {
+.service-card, .service-card-lg {
     background-color: #f8f8f8;
     border-bottom: 2px solid #50c0e6;
     box-shadow: 0 15px 12px -13px #50c0e6;
     height: 520px;
-    margin: 1rem;
+    margin-top: 1rem;
     padding: 20px 20px 50px;
     width: 100%;
     border-radius: 20px;
 }
 
-.service-card h5 {
+.service-card h5, .service-card-lg h5 {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 1rem;
@@ -23,7 +23,13 @@ img {
 }
 
 @media (max-width: 1232px) {
-    .service-card{
+    .service-card {
         height: 650px;
+    }
+}
+
+@media (max-width: 767px) {
+    .service-card {
+        height: auto;
     }
 }

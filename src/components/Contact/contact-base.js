@@ -123,7 +123,7 @@ function ContactBase() {
                                         type="text"
                                         name="name"
                                         className="form-control"
-                                        placeholder='নাম '
+                                        placeholder=''
                                         onChange={nameOnChanged}
                                         id='name'
                                         value={name}/>
@@ -135,7 +135,7 @@ function ContactBase() {
                                         type="email"
                                         name="email"
                                         className="form-control"
-                                        placeholder='ই-মেইল '
+                                        placeholder=''
                                         onChange={emailOnChanged}
                                         id='email'
                                         value={email}
@@ -149,7 +149,7 @@ function ContactBase() {
                                         type="tel"
                                         name="phone"
                                         className="form-control"
-                                        placeholder='ফোন নাম্বার'
+                                        placeholder=''
                                         onChange={phoneOnChanged}
                                         id='phone'
                                         value={phone}/>

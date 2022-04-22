@@ -2,11 +2,15 @@
     margin-top: 8.5rem;
 }
 
-.about h1 {
+.about h1, .about-teacher h1 {
     font-weight: 600;
 }
 
-.about p {
+.about-content {
+    font-weight: 600;
+}
+
+.about p, .about-teacher p {
     font-size: 17px;
     line-height: 2rem;
     text-align: justify;
@@ -22,40 +26,67 @@
     top: 0;
     left: 0;
 }
+
 .details i {
     color: green;
     font-size: 25px;
 }
+
 .sort-details i {
     color: green;
     font-size: 25px;
 }
-.video-text{
+
+.video-text {
     font-size: 16px;
 }
-.bulet-text{
+
+.bulet-text {
     margin-left: 2rem;
 }
+
 @media (max-width: 991px) {
-    .video-player{
+    .video-player {
         display: none;
     }
 }
 
 
 @media (min-width: 992px) {
-    .sm-player{
+    .sm-player {
         display: none;
     }
 }
 
 @media (max-width: 633px) {
-    .details{
+    .details {
         display: none;
     }
 }
+
 @media (min-width: 634px) {
-    .sort-details{
+    .sort-details {
         display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .about, .sm-device {
+        display: none;
+    }
+}
+
+@media (min-width: 701px) {
+    .lg-device {
+        display: none;
+    }
+}
+
+@media (min-width: 990px) {
+    .bottom-contact {
+        display: none;
+    }
+    .contact-card{
+        margin-bottom: 3rem;
     }
 }

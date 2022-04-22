@@ -3,7 +3,7 @@ import cartoon from "../../images/teacher.jpg"
 
 function Teacher() {
     return (<div className="">
-        <div className="about mt-3 mt-sm-5">
+        <div className="about-teacher mt-3 mt-sm-5">
             <h1>শিক্ষক</h1>
             <section>
                 <div className="profile-page">

@@ -22,10 +22,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "aws-deploy": "npm run build && aws s3 sync build/ s3://learning.fractalab.com  --cache-control max-age=604800",
-    "deploy-prod": "npm run aws-deploy && aws cloudfront create-invalidation --distribution-id=E2E0EJVFMBSRTB --paths /",
-    "aws-deploy-dev": "npm run build && aws s3 sync build/ s3://dev.learning.fractalslab.com --cache-control max-age=604800",
-    "deploy-dev": "npm run aws-deploy-dev && aws cloudfront create-invalidation --distribution-id=E3088A51DBVY50 --paths /"
+    "aws-deploy": "npm run build && aws s3 sync build/ s3://learning.fractalab.com --delete --cache-control max-age=0",
+    "deploy-prod": "npm run aws-deploy && aws cloudfront create-invalidation --distribution-id=E2E0EJVFMBSRTB --paths /*",
+    "aws-deploy-dev": "npm run build && aws s3 sync build/ s3://dev.learning.fractalslab.com --delete --cache-control max-age=0",
+    "deploy-dev": "npm run aws-deploy-dev && aws cloudfront create-invalidation --distribution-id=E3088A51DBVY50 --paths /*"
   },
   "eslintConfig": {
     "extends": [

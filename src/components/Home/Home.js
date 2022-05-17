@@ -60,7 +60,7 @@ function HomePage() {
                                 জন্য ৩০ মিনিট
                             </div>
                             <div className="mt-3">
-                                <span className="h5">কোর্স ফি: ১৫০০</span> <span className="h2 mb-4">৳</span> <br/>
+                                <span className="h5">কোর্স ফি: ২,০০০</span> <span className="h2 mb-4">৳</span> <br/>
                                 <small>৭ দিনের মানি ব্যাক গ্যারান্টি </small>
                             </div>
                         </div>
@@ -94,7 +94,7 @@ function HomePage() {
                                             </div>
                                         </div>
                                         <div className="text-end me-5">
-                                            <span className="h5">কোর্স ফি: ১৫০০</span><span className="h2 mb-4">৳</span><br/>
+                                            <span className="h5">কোর্স ফি: ২,০০০</span><span className="h2 mb-4">৳</span><br/>
                                             <br/>
                                             <small>৭ দিনের মানি ব্যাক গ্যারান্টি </small>
                                         </div>
@@ -148,7 +148,7 @@ function HomePage() {
                             </div>
                         </div>
                         <div className="text-end me-5">
-                            <span className="h5">কোর্স ফি: ১৫০০</span><span className="h2 mb-4">৳</span> <br/>
+                            <span className="h5">কোর্স ফি: ২,০০০</span><span className="h2 mb-4">৳</span> <br/>
                             <small>৭ দিনের মানি ব্যাক গ্যারান্টি </small>
                         </div>
                     </div>

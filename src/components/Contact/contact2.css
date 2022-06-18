@@ -64,3 +64,7 @@ a {
 .button_count {
     height: 10rem !important;
 }
+
+.swal2-popup {
+    width: 38em !important;
+}

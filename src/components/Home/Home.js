@@ -53,52 +53,45 @@ function HomePage() {
                             <div className="video-text"><i className="fa-solid fa-check"></i> ১ মাস কোর্সের
                                 সময়সীমা
                             </div>
-                            <div className="video-text"><i className="fa-solid fa-check"></i> ১ ঘন্টা লাইভ
-                                সেশন
+                            <div className="video-text"><i className="fa-solid fa-check"></i> সম্পূর্ণ অনলাইন ভিত্তিক
+                                ক্লাস (Google Meet)
                             </div>
                             <div className="video-text"><i className="fa-solid fa-check"></i> সরাসরি প্রশ্নোত্তর সেশনের
                                 জন্য ৩০ মিনিট
                             </div>
+                            <div className="video-text"><i className="fa-solid fa-check"></i> ক্লাস শুরু হবে ২৫ শে জুন
+                                ২০২২
+                            </div>
                             <div className="mt-3">
-                                <span className="h5">কোর্স ফি: ২,০০০</span> <span className="h2 mb-4">৳</span> <br/>
+                                <span className="h5">কোর্স ফি: ১,০০০</span> <span className="h2 mb-4">৳</span> <br/>
                                 <small>৭ দিনের মানি ব্যাক গ্যারান্টি </small>
                             </div>
                         </div>
                         <div className="bg-white details">
-                            <div className="row justify-content-center">
-                                <div className="col-lg-8 col-sm-12 col-md-12 mb-3">
-                                    <div className="p-3">
-                                        <div className="d-flex justify-content-between">
-                                            <div className="video-text"><i className="fa-solid fa-check"></i> ১০ ঘন্টা
-                                                ভিডিও
-                                                লেকচার
-                                            </div>
-                                            <div className="video-text"><i className="fa-solid fa-check"></i> ৮ টি
-                                                লেকচার
-                                                সেশন
-                                            </div>
-                                        </div>
-                                        <div className="d-flex justify-content-between">
-                                            <div className="video-text"><i className="fa-solid fa-check"></i> ১ ঘন্টা
-                                                লাইভ সেশন
-                                            </div>
-                                            <div className="video-text"><i className="fa-solid fa-check"></i> ১ মাস
-                                                কোর্সের
-                                                সময়সীমা
-                                            </div>
-                                        </div>
-                                        <div className="d-flex justify-content-between">
-                                            <div className="video-text"><i className="fa-solid fa-check"></i> সরাসরি
-                                                প্রশ্নোত্তর
-                                                সেশনের জন্য ৩০ মিনিট
-                                            </div>
-                                        </div>
-                                        <div className="text-end me-5">
-                                            <span className="h5">কোর্স ফি: ২,০০০</span><span className="h2 mb-4">৳</span><br/>
-                                            <br/>
-                                            <small>৭ দিনের মানি ব্যাক গ্যারান্টি </small>
-                                        </div>
-                                    </div>
+                            <div className="bg-white p-4">
+                                <div className="video-text"><i className="fa-solid fa-check"></i> ১০ ঘন্টা ভিডিও
+                                    লেকচার
+                                </div>
+                                <div className="video-text"><i className="fa-solid fa-check"></i> ৮ টি লেকচার
+                                    সেশন
+                                </div>
+                                <div className="video-text"><i className="fa-solid fa-check"></i> ১ মাস কোর্সের
+                                    সময়সীমা
+                                </div>
+                                <div className="video-text"><i className="fa-solid fa-check"></i> সম্পূর্ণ অনলাইন
+                                    ভিত্তিক
+                                    ক্লাস (Google Meet)
+                                </div>
+                                <div className="video-text"><i className="fa-solid fa-check"></i> সরাসরি প্রশ্নোত্তর
+                                    সেশনের
+                                    জন্য ৩০ মিনিট
+                                </div>
+                                <div className="video-text"><i className="fa-solid fa-check"></i> ক্লাস শুরু হবে ২৫ শে
+                                    জুন ২০২২
+                                </div>
+                                <div className="mt-3">
+                                    <span className="h5">কোর্স ফি: ১,০০০</span> <span className="h2 mb-4">৳</span> <br/>
+                                    <small>৭ দিনের মানি ব্যাক গ্যারান্টি </small>
                                 </div>
                             </div>
                         </div>
@@ -123,32 +116,28 @@ function HomePage() {
                         </button>
                     </div>
                     <div className="bg-white details">
-                        <div className="row justify-content-center">
-                            <div className="col-lg-9 col-sm-12 col-md-12 mb-3">
-                                <div className="d-flex justify-content-between">
-                                    <div className="video-text"><i className="fa-solid fa-check"></i> ১০ ঘন্টা ভিডিও
-                                        লেকচার
-                                    </div>
-                                    <div className="video-text"><i className="fa-solid fa-check"></i> ৮ টি লেকচার সেশন
-                                    </div>
-                                </div>
-                                <div className="d-flex justify-content-between">
-                                    <div className="video-text"><i className="fa-solid fa-check"></i> ১ ঘন্টা
-                                        লাইভ সেশন
-                                    </div>
-                                    <div className="video-text"><i className="fa-solid fa-check"></i> ১ মাস কোর্সের
-                                        সময়সীমা
-                                    </div>
-                                </div>
-                                <div className="d-flex justify-content-between">
-                                    <div className="video-text"><i className="fa-solid fa-check"></i> সরাসরি প্রশ্নোত্তর
-                                        সেশনের জন্য ৩০ মিনিট
-                                    </div>
-                                </div>
+                        <div className="bg-white p-4">
+                            <div className="video-text"><i className="fa-solid fa-check"></i> ১০ ঘন্টা ভিডিও
+                                লেকচার
+                            </div>
+                            <div className="video-text"><i className="fa-solid fa-check"></i> ৮ টি লেকচার
+                                সেশন
+                            </div>
+                            <div className="video-text"><i className="fa-solid fa-check"></i> ১ মাস কোর্সের
+                                সময়সীমা
+                            </div>
+                            <div className="video-text"><i className="fa-solid fa-check"></i> সম্পূর্ণ অনলাইন ভিত্তিক
+                                ক্লাস (Google Meet)
+                            </div>
+                            <div className="video-text"><i className="fa-solid fa-check"></i> সরাসরি প্রশ্নোত্তর সেশনের
+                                জন্য ৩০ মিনিট
+                            </div>
+                            <div className="video-text"><i className="fa-solid fa-check"></i> ক্লাস শুরু হবে ২৫ শে জুন
+                                ২০২২
                             </div>
                         </div>
                         <div className="text-end me-5">
-                            <span className="h5">কোর্স ফি: ২,০০০</span><span className="h2 mb-4">৳</span> <br/>
+                            <span className="h5">কোর্স ফি: ১,০০০</span><span className="h2 mb-4">৳</span> <br/>
                             <small>৭ দিনের মানি ব্যাক গ্যারান্টি </small>
                         </div>
                     </div>

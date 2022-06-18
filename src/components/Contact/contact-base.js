@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from "react";
+import Swal from "sweetalert2";
 
 const SITE_KEY = "6LetAmYeAAAAAPVdEy3rzYYohRzIU5Nr6FHvKCNQ";
 
@@ -55,7 +56,7 @@ function ContactBase() {
         if (typeof window !== "undefined") {
             if (window.fbq != null) {
                 console.warn("Purchase")
-                window.fbq('track', 'Purchase', {currency: "BDT", value: 4000});
+                window.fbq('track', 'Purchase', {currency: "BDT", value: 1000});
             }
         }
     }
@@ -95,9 +96,8 @@ function ContactBase() {
                                 setEmail("");
                                 setPhone("");
                                 Swal.fire({
-                                    icon: 'success',
-                                    title: 'Thank you',
-                                    text: 'We\'ve sent you an email at the email address you provided.',
+                                    icon: '',
+                                    text: 'আপনার দেওয়া ইমেইল এ payment কিভাবে করবেন জানানো হয়েছে । দয়া করে আপনার ইমেইল এর ইনবক্স / স্প্যাম বক্স দেখুন ।',
                                 });
                                 onClick();
                                 setDisable(false)

@@ -59,11 +59,11 @@ function HomePage() {
                             <div className="video-text"><i className="fa-solid fa-check"></i> সরাসরি প্রশ্নোত্তর সেশনের
                                 জন্য ৩০ মিনিট
                             </div>
-                            <div className="video-text"><i className="fa-solid fa-check"></i> ক্লাস শুরু হবে ২৫ শে জুন
-                                ২০২২
-                            </div>
+                            {/*<div className="video-text"><i className="fa-solid fa-check"></i> ক্লাস শুরু হবে ২৫ শে জুন*/}
+                            {/*    ২০২২*/}
+                            {/*</div>*/}
                             <div className="mt-3">
-                                <span className="h5">কোর্স ফি: ১,০০০</span> <span className="h2 mb-4">৳</span> <br/>
+                                <span className="h5">কোর্স ফি: ৩,০০০</span> <span className="h2 mb-4">৳</span> <br/>
                                 <small>৭ দিনের মানি ব্যাক গ্যারান্টি </small>
                             </div>
                         </div>
@@ -86,11 +86,11 @@ function HomePage() {
                                     সেশনের
                                     জন্য ৩০ মিনিট
                                 </div>
-                                <div className="video-text"><i className="fa-solid fa-check"></i> ক্লাস শুরু হবে ২৫ শে
-                                    জুন ২০২২
-                                </div>
+                                {/*<div className="video-text"><i className="fa-solid fa-check"></i> ক্লাস শুরু হবে ২৫ শে*/}
+                                {/*    জুন ২০২২*/}
+                                {/*</div>*/}
                                 <div className="mt-3">
-                                    <span className="h5">কোর্স ফি: ১,০০০</span> <span className="h2 mb-4">৳</span> <br/>
+                                    <span className="h5">কোর্স ফি: ৩,০০০</span> <span className="h2 mb-4">৳</span> <br/>
                                     <small>৭ দিনের মানি ব্যাক গ্যারান্টি </small>
                                 </div>
                             </div>
@@ -129,12 +129,12 @@ function HomePage() {
                             <div className="video-text"><i className="fa-solid fa-check"></i> সরাসরি প্রশ্নোত্তর সেশনের
                                 জন্য ৩০ মিনিট
                             </div>
-                            <div className="video-text"><i className="fa-solid fa-check"></i> ক্লাস শুরু হবে ২৫ শে জুন
-                                ২০২২
-                            </div>
+                            {/*<div className="video-text"><i className="fa-solid fa-check"></i> ক্লাস শুরু হবে ২৫ শে জুন*/}
+                            {/*    ২০২২*/}
+                            {/*</div>*/}
                         </div>
                         <div className="text-end me-5">
-                            <span className="h5">কোর্স ফি: ১,০০০</span><span className="h2 mb-4">৳</span> <br/>
+                            <span className="h5">কোর্স ফি: ৩,০০০</span><span className="h2 mb-4">৳</span> <br/>
                             <small>৭ দিনের মানি ব্যাক গ্যারান্টি </small>
                         </div>
                     </div>
